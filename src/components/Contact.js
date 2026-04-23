@@ -66,45 +66,39 @@ const Contact = () => {
         <Row className="contact-info-section">
           <Col size={12} sm={6} className="mt-3">
             <p>
-              <i className="fa fa-phone icon-spacing"></i> (438)928-3600
-            </p>
-            <p>
               <i className="fa fa-envelope icon-spacing"></i>{" "}
-              carinewukk@gmail.com
+              kaiyiwu89@gmail.com
             </p>
             <p>
-              <i className="fa fa-map-marker icon-spacing"></i> Laval Quebec,
+              <i className="fa fa-map-marker icon-spacing"></i> Montréal, QC,
               Canada
             </p>
-            {/* <div className="social-icon git-icon mt-5"> */}
-            {/* </div> */}
             <button
-              className="download-resume-btn mt-5"
+              className="download-resume-btn mt-4"
               onClick={handleCheckProjects}
             >
-              <span> Check my projects in Github </span>
+              <span>Check my GitHub</span>
+            </button>
+            <button
+              className="download-resume-btn mt-3"
+              onClick={handleDownloadResume}
+            >
+              <span>Download Resume</span>
             </button>
           </Col>
           <Col size={12} sm={6} className="mt-3">
             <p>
-              Welcome to the hub of my creative universe. Your presence here
-              fuels the collaboration and innovation that I thrive on. Let's
-              embark on a journey to craft the exceptional, harness the power of
-              technology, and sculpt the digital landscape together!
+              Looking for a nopCommerce specialist or need help with your B2B
+              store? I'm open to freelance projects — custom plugins, store
+              setup, ERP integration, or WordPress builds. Let's talk.
             </p>
-            <button
-              className="download-resume-btn"
-              onClick={handleDownloadResume}
-            >
-              <span> Download Resume</span>
-            </button>
           </Col>
         </Row>
 
         <Row className="align-items-center mt-5">
           <Col size={12} md={12}>
             <div>
-              <h3>Connect with me - I'm just a message away.</h3>
+              <h3>Send me a message — I'd love to hear from you.</h3>
               <form onSubmit={handleSubmit} className="mt-3">
                 <Row>
                   <Col size={12} sm={6} className="px-1">
@@ -137,7 +131,7 @@ const Contact = () => {
                     <input
                       type="tel"
                       value={formDetails.phone}
-                      placeholder="Phone No."
+                      placeholder="Phone No. (optional)"
                       onChange={(e) => onFormUpdate("phone", e.target.value)}
                     />
                   </Col>

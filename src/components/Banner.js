@@ -9,8 +9,8 @@ const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const toRotate = [
-    "Web Developer",
-    "Front-End Developer",
+    "nopCommerce Developer",
+    "B2B E-commerce Specialist",
     "Full-Stack Developer",
   ];
   const [text, setText] = useState("");
@@ -60,26 +60,25 @@ const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <h1>
-              {`Hi I'm `}
+              {`Hi, I'm `}
               <span className="myName">Kaiyi Wu</span>
-              {` a `}
+              {` — a`}
             </h1>
             <div className="wrap">{text}</div>
             <p>
-              Code artisan crafting digital magic. I'm not just a developer; I'm
-              a storyteller, turning each project into a narrative of problems
-              solved with creativity and precision. Ready to bring a unique
-              blend of technical skills and imaginative solutions to the tech
-              scene.
+              I build and customise B2B e-commerce solutions — from complex
+              nopCommerce plugins to ERP integrations. Based in Montréal, with
+              hands-on experience shipping production stores and automating
+              business workflows with Python and C#.
             </p>
             <HashLink smooth to="#projects" className="button-link">
               <button>
-                Step Into My World of Code <ArrowRightCircle size={25} />
+                See My Work <ArrowRightCircle size={25} />
               </button>
             </HashLink>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Headder Img" />
+            <img src={headerImg} alt="Kaiyi Wu" />
           </Col>
         </Row>
       </Container>

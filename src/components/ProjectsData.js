@@ -1,80 +1,59 @@
-import projImg1 from "../assets/img/TravelAdvisorApp.png";
-import projImg2 from "../assets/img/DinSumResturant.png";
-import projImg3 from "../assets/img/HotelUrbanNest.png";
-import projImg4 from "../assets/img/e-commerce.png";
-import projImg5 from "../assets/img/marketManagement.png";
-import projImg6 from "../assets/img/comingsoon.png";
+import projImg1 from "../assets/img/comingsoon.png";
+import projImg2 from "../assets/img/comingsoon.png";
+import projImg3 from "../assets/img/comingsoon.png";
+import projImg4 from "../assets/img/comingsoon.png";
+
 const ProjectsData = [
   {
     id: 1,
-    title: "Travel Advisor App",
+    title: "B2B Product Bundle Plugin",
     description:
-      "Developed and deployed a Travel Advisor system utilizing React, TypeScript, ChakraUI and Google Maps API,  ensuring a responsive user interface for seamless travel planning. Utilized react-google-maps and @react-google-maps/api to to integrate interactive features, including markers and info windows, resulting in a 30% increase in user engagement. Leveraged geolocation APIs to fetch the user's current location, delivering personalized travel advice based on geographical context and achieving a 20% boost in user retention.",
+      "Built a full-featured bundle management plugin from scratch for a live B2B nopCommerce store. Includes a custom admin UI for creating and managing bundles, cart rendering with per-item pricing breakdown, a discount algorithm supporting both percentage and fixed-amount rules, and cascading updates so editing a bundle auto-refreshes all linked cart line items.",
     imgUrl: projImg1,
-    path: "travel-advisor-app",
-    demo: "https://travel-advisor-app-group-4.vercel.app/",
-    code: "https://github.com/kaiyi17/TravelAdvisorApp",
-    technologies: ["React", "TypeScript", "ChakraUI", "Google Maps API"],
+    path: "b2b-product-bundle-plugin",
+    demo: "#",
+    code: "#",
+    technologies: ["C#", ".NET", "nopCommerce", "Razor Views", "jQuery", "SQL"],
   },
   {
     id: 2,
-    title: "Dim Sum Resturant",
+    title: "B2B Store Custom Plugin Suite",
     description:
-      "Developed an engaging Dim Sum Restaurant website utilizing CSS, HTML5, and JavaScript, and facilitating online reservations and orders. Implemented interactive pages for reservations, and ordering, including a shopping cart for dine-in or pick-up options, tips, and order submission. Enhanced user experience with a contact page for easy communication, ensuring a seamless interface for managing reservations, orders, and inquiries.",
+      "Developed multiple plugins to support complex B2B purchasing workflows across three live production stores. Features include tier pricing with category-level quantity inputs, a Purchase Order plugin enforcing required PO number and ship date at checkout, sales rep access control to restrict store visibility and pricing by rep assignment, and a restore roll feature allowing customers to reorder from order history.",
     imgUrl: projImg2,
-    path: "dim-sum-resturant",
-    demo: "https://dimsum-restaurant.vercel.app/index.html",
-    code: "https://github.com/kaiyi17/Dimsum-Restaurant",
-    technologies: ["HTML5", "CSS", "JavaScript"],
+    path: "b2b-store-plugin-suite",
+    demo: "#",
+    code: "#",
+    technologies: ["C#", ".NET", "nopCommerce", "JavaScript", "SQL"],
   },
   {
     id: 3,
-    title: "Hotel Reservation",
+    title: "ERP & nopCommerce Data Sync",
     description:
-      "Developed a dynamic website integrating PHP and Twig template engine to provide real-time weather updates and related information. Utilizing PHP for backend processing and Twig for rendering dynamic front-end pages, the site ensures content is dynamically displayed and efficiently updated. Additionally, the platform features an admin backend login interface, allowing for the management of all bookings. This comprehensive system enables administrators to efficiently oversee reservation details and adjust schedules, ensuring a seamless operation.Username: Admin, Password: admin123",
+      "Researched and implemented automated data synchronisation between Microsoft Dynamics GP and nopCommerce, eliminating manual data entry between the two systems. Python scripts handle product, pricing, and order sync with incremental updates to avoid full re-sync overhead on every run.",
     imgUrl: projImg3,
-    path: "hotel-reservation",
-    demo: "http://57.151.115.89/finalproject/hotel-reservation/public/index.php",
-    code: "https://github.com/kaiyi17/Hoteml-Management-PHP",
-    technologies: ["PHP", "Twig"],
+    path: "erp-nopcommerce-sync",
+    demo: "#",
+    code: "#",
+    technologies: ["Python", "MS Dynamics GP", "nopCommerce API", "SQL"],
   },
   {
     id: 4,
-    title: "BackOffice System",
+    title: "Corporate Website Revamp",
     description:
-      "Led the development of an E-Commerce BackOffice System using Spring Boot, Thymeleaf, and Bootstrap, improving operational efficiency for online retail platforms.Engineered a centralized system for real-time order processing, payment information management, and account maintenance, streamlining administrative tasks for customer service representatives.Conducted thorough unit testing to ensure component reliability and performance, maintaining high code quality standards. Username: 999, Password:999",
+      "Rebuilt an outdated corporate website from the ground up using WordPress and Elementor (free tier only). The original had gone years without updates as nobody dared touch it. Added custom JavaScript for interactive elements beyond Elementor's native support, and successfully deployed to cPanel with zero downtime. Modernised design with improved mobile responsiveness.",
     imgUrl: projImg4,
-    path: "backoffice-system",
-    demo: "https://backoffice-springboot-demo.azurewebsites.net/showMyLoginPage",
-    code: "https://github.com/kaiyi17/backoffice-springboot",
-    technologies: ["SpringBoot", "Thymeleaf", "Bootstrap"],
-  },
-  {
-    id: 5,
-    title: "Super Saver Market Management",
-    description:
-      "Developed a Super Saver Market Management System with ASP.NET Core and Bootstrap, focusing on backend efficiency and role-specific access. Features include Azure SQL Server, custom validations, and secure authentication. The system streamlines order and inventory management for sales and inventory departments. Access is tiered: unregistered users see only the home page, registered users access transactions, and department-specific accounts have tailored privileges. Credentials for Sales: Username: sale@gmail.com, Password: Sale@123; Inventory: Username: inventory@gmail.com, Password: Inventory@123.",
-    imgUrl: projImg5,
-    path: "super-saver-market-management",
-    demo: "https://supersavermarketmanagement.azurewebsites.net/",
-    code: "https://github.com/kaiyi17/SuperSaverMarketManagement",
-    technologies: [
-      "C#",
-      "ASP.NET Core",
-      "Bootstrap",
-      "Azure SQL Server",
-      "Entity Framework Core",
-      "Authentication and Authorization",
-    ],
-  },
-  {
-    id: 6,
-    title: "Coming Soon",
-    description: "Design & Development",
-    imgUrl: projImg6,
+    path: "corporate-website-revamp",
     demo: "#",
     code: "#",
-    technologies: [],
+    technologies: [
+      "WordPress",
+      "Elementor",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "cPanel",
+    ],
   },
 ];
 
