@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, Navigate, useNavigate } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import projectsData from "../components/ProjectsData";
 import { HashLink } from "react-router-hash-link";
 
