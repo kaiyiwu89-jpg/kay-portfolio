@@ -269,6 +269,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 65px;
   font-weight: 700;
   letter-spacing: 0.8px;
+  display: block;
+  min-height: 80px;
 }
 
 .banner p {
