@@ -266,11 +266,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner .wrap {
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 700;
   letter-spacing: 0.8px;
   display: block;
-  min-height: 80px;
+  min-height: 60px;
 }
 
 .banner p {
@@ -278,7 +278,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  width: 100%;
 }
 .banner button {
   color: #fff;
