@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const ProjectCard = ({ title, description, imgUrl, technologies }) => {
   const projectPath = encodeURIComponent(
-    title.toLowerCase().split(" ").join("-")
+    title.toLowerCase().split(" ").join("-"),
   );
   const techList = technologies ? technologies.join(" | ") : "";
 
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
-        <img src={imgUrl} />
+        <img src={imgUrl} alt={title} />
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{techList}</span>

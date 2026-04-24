@@ -4,7 +4,6 @@ import projectsData from "../components/ProjectsData";
 import { HashLink } from "react-router-hash-link";
 
 const ProjectDetail = () => {
-  const navigate = useNavigate();
   const { projectPath } = useParams();
   const project = projectsData.find((p) => p.path === projectPath);
   const techList = project.technologies ? project.technologies.join(" | ") : "";
